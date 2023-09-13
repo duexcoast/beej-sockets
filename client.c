@@ -84,5 +84,6 @@ int main(int argc, char *argv[]) {
     printf("client has received '%s'\n", buf);
 
     close(sockfd);
+
     return 0;
 }
